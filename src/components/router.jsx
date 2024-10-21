@@ -15,7 +15,7 @@ import Turing from "../pages/turing";
 
 export default () => (
   <Switch>
-    <Route path="/" component={Home} />
+    <Route path="/" component={Turing} />
     <Route path="/about" component={About} />
     <Route path="/turing" component={Turing} />
   </Switch>
